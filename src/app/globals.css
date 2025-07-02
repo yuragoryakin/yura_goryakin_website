@@ -1,0 +1,41 @@
+@layer components {
+  .test-dark {
+    @apply bg-white text-black dark:bg-black dark:text-white p-8;
+  }
+}
+@import "tailwindcss";
+@import "@fontsource/rethink-sans/400.css";
+@import "@fontsource/rethink-sans/600.css";
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+.dark {
+  --bg-color: black;
+  --text-color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+::selection {
+  background-color: #F5347F;
+  color: white;
+}
