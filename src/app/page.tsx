@@ -37,7 +37,7 @@ export default function Home() {
       <div className="flex flex-1 min-h-0 relative">
         {/* Sidebar */}
         <aside
-          className="w-56 min-w-[180px] bg-white h-full border-0 flex flex-col sticky"
+          className="hidden md:flex w-56 min-w-[180px] bg-white h-full border-0 flex-col sticky"
           style={{
             top: 250,
             right: 160,
@@ -50,7 +50,7 @@ export default function Home() {
         {/* Main content area with sections */}
         <main
           id="scrollContainer"
-          className="flex-1 overflow-y-auto scroll-smooth flex flex-col items-start scroll-pt-20"
+          className="flex-1 overflow-y-auto scroll-smooth flex flex-col items-start scroll-pt-20 px-4 md:px-0"
           style={{
             scrollBehavior: "smooth",
             paddingLeft: 240,
