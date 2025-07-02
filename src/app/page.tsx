@@ -40,7 +40,6 @@ export default function Home() {
           className="hidden md:flex w-56 min-w-[180px] bg-white h-full border-0 flex-col sticky"
           style={{
             top: 250,
-            right: 160,
             alignSelf: "flex-start",
             position: "sticky",
           }}
