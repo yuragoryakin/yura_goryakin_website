@@ -50,11 +50,9 @@ export default function Home() {
         {/* Main content area with sections */}
         <main
           id="scrollContainer"
-          className="flex-1 overflow-y-auto scroll-smooth flex flex-col items-start scroll-pt-20 px-4 md:px-0"
+          className="flex-1 overflow-y-auto scroll-smooth flex flex-col items-start scroll-pt-20 px-6 md:pl-[240px] md:pr-[360px]"
           style={{
             scrollBehavior: "smooth",
-            paddingLeft: 240,
-            paddingRight: 360,
           }}
         >
           <Section
@@ -77,7 +75,7 @@ export default function Home() {
                 Product Designer (Previously UX/UI)
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-x-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24">
               <div className="space-y-6">
                 <p>
                   Designed and launched the UX/UI for a highly complex internal
@@ -126,7 +124,7 @@ export default function Home() {
             </div>
           </Section>
           <Section id="education" title="">
-            <div className="grid grid-cols-2 gap-x-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24">
               <p>
                 Moscow Architectural Institute
                 <br />
@@ -140,7 +138,7 @@ export default function Home() {
             </div>
           </Section>
           <Section id="skills" title="">
-            <div className="grid grid-cols-2 gap-x-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24">
               <p>
                 User research
                 <br />
@@ -204,7 +202,7 @@ export default function Home() {
             </div>
           </Section>
           <Section id="about" title="">
-            <div className="grid grid-cols-2 gap-x-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24">
               <div className="space-y-6">
                 <p>
                   I had never understood why I was so bothered by poorly designed
