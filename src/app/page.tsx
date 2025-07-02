@@ -238,7 +238,7 @@ export default function Home() {
                 </p>
                 <div className="flex gap-4">
                   <Image
-                    src="/images/about-1.jpg"
+                    src="/images/about-1.JPG"
                     alt="Yura Goryakin with his dog"
                     width={400}
                     height={500}
