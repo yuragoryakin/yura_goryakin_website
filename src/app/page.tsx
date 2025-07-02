@@ -49,7 +49,7 @@ export default function Home() {
         {/* Main content area with sections */}
         <main
           id="scrollContainer"
-          className="flex-1 overflow-y-auto scroll-smooth flex flex-col items-start scroll-pt-20 md:pl-[240px] md:pr-[360px]"
+          className="flex-1 overflow-y-auto scroll-smooth flex flex-col items-start scroll-pt-20 md:pr-[360px]"
           style={{
             scrollBehavior: "smooth",
           }}
