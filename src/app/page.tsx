@@ -9,6 +9,7 @@ import Topbar from "../components/Topbar";
 import Section from "../components/Section";
 import ScrollManager from "../components/ScrollManager";
 
+// Force new build
 export default function Home() {
   // This hook runs after the component mounts, ensuring the sections are in the DOM.
   // The interval repeatedly calls scrollSpy.update() to robustly handle
